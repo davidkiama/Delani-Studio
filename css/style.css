@@ -16,3 +16,44 @@ body {
   font-size: 1.5rem;
   line-height: 1.6;
 }
+
+:root {
+  --color-white: #fff;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 100vh;
+  background-image: url("../img/h_img.jpg");
+  padding: 2rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--color-white);
+}
+
+.header-box {
+  margin: auto;
+}
+
+.header__title {
+  font-size: 3.5rem;
+  font-weight: 100;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  line-height: 2;
+  margin-top: 1rem;
+}
+
+.header__sub-title {
+  font-size: 1.4rem;
+}
