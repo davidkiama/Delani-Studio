@@ -82,3 +82,45 @@ body {
   background-position: center;
   background-size: cover;
 }
+
+.offers {
+  display: flex;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.project {
+  position: relative;
+}
+
+.project__img {
+  transition: all 0.5s;
+}
+
+.project:hover .project__img {
+  filter: brightness(0.4);
+  /* filter: blur(2px); */
+}
+
+.project__title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 80%;
+  height: 80%;
+
+  border: 2px solid var(--color-white);
+  color: var(--color-white);
+  text-align: left;
+  padding: 1rem;
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
