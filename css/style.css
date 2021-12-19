@@ -26,6 +26,10 @@ body {
   flex-direction: column;
 }
 
+.hidden {
+  display: none;
+}
+
 .header {
   height: 100vh;
   background-image: url("../img/h_img.jpg");
@@ -86,6 +90,23 @@ body {
 
 .offers {
   display: flex;
+  justify-content: space-around;
+  column-gap: 2rem;
+
+  margin-top: 3rem;
+}
+
+.offer {
+  width: 33%;
+  cursor: pointer;
+}
+
+.offer__heading {
+  font-size: 2rem;
+}
+
+.offer__text {
+  font-size: 1.8rem;
 }
 
 .projects {
