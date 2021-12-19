@@ -103,6 +103,7 @@ body {
 
 .offer__heading {
   font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 .offer__text {
@@ -124,12 +125,12 @@ body {
   transition: all 0.5s;
 }
 
-.project:hover .project__img {
+.dull {
   filter: brightness(0.4);
-  /* filter: blur(2px); */
 }
 
 .project__title {
+  opacity: 0;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -145,6 +146,13 @@ body {
   font-size: 3rem;
   font-weight: 600;
   text-transform: uppercase;
+
+  transition: opacity 0.5s ease-in-out;
+}
+
+/*  */
+.displayCaption {
+  opacity: 1;
 }
 
 .footer {
