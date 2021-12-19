@@ -1,5 +1,4 @@
 "use strict";
-document.querySelector;
 $(document).ready(function () {
   //Display and hide offer text
   $(".offer").click(function (e) {
