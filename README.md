@@ -8,7 +8,7 @@ This is a finctional web application that offers web/tech services. It represent
 
 ## Demo
 
-[Live Demo]()
+[Live Demo](https://davidkiama.github.io/Delani-Studio/)
 
 ## Technologies Used
 
@@ -22,7 +22,7 @@ This is a finctional web application that offers web/tech services. It represent
 
 ## Project setup and instructions
 
-I have deployed the page and here is the [link](). You can also download the entire folder and open the html file on your browser.
+I have deployed the page and here is the [link](https://davidkiama.github.io/Delani-Studio/). You can also download the entire folder and open the html file on your browser.
 
 ## Support and contact details
 
